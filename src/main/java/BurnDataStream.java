@@ -1,4 +1,9 @@
-public class BurnDataStream implements BurnStream {
+public class
+
+
+
+
+BurnDataStream implements BurnStream {
     // these are the series of burns made each 10 secs by the lander.
     // change them to see if you can get the lander to make a soft landing.
     // burns are between 0 and 200. This burn array usually crashes.
