@@ -11,7 +11,7 @@ BurnDataStream implements BurnStream {
     int burnArray[] = {100, 100, 200, 200, 100, 100, 0, 0, 200, 100, 100, 0, 0, 0, 0};
     int burnIdx = -1;
 
-    public BurnDataStream() { }
+    public BurnDataStream() {}
     public BurnDataStream(int[] burns) {
         this.burnArray = burns;
     }
