@@ -61,9 +61,6 @@ public class Vehicle {
 
     public void adjustForBurn(int burnAmount) {
         Burn = burnAmount;
-
-
-
         // set burn to burnAmount requested
         PrevAltitude = Altitude;
         // save previousAltitude with current Altitude
